@@ -11,7 +11,7 @@ services:
     environment:
       - NODE_ENV=development
     networks:
-      - backend
+      - xarvis_backend
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.portfolio.rule=Host(`www.xpan9.tech`)"
@@ -19,5 +19,6 @@ services:
       - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
       - "traefik.http.services.portfolio.loadbalancer.server.port=5173"
 networks:
-  backend:
+  xarvis_backend:
     external: true
+    name: xarvis_backend
