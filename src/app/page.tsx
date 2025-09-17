@@ -50,7 +50,7 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Resume</h2>
           <a
-            href="/docs/Victor-Oladunjoye-FlowCV-Resume-20250917.pdf"
+            href="/docs/Victor-Oladunjoye-FlowCV-Resume-20250918.pdf"
             className="inline-block px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700 transition"
             download
           >
