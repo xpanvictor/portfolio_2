@@ -1,103 +1,83 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-white font-sans text-gray-900 px-4 py-8 flex flex-col items-center" style={{ fontFamily: 'Noto Sans JP, sans-serif' }}>
+      <div className="max-w-2xl w-full">
+        {/* Header / Name / Japanese scent */}
+        <header className="mb-8 text-center">
+          <h1 className="text-4xl font-bold tracking-tight mb-2">Victor Oladunjoye</h1>
+          <p className="text-lg text-gray-600 mb-2">Software Engineer</p>
+          <span className="text-sm text-gray-400">戦え、戦え… (Fight, fight...)</span>
+          <p className="mt-4 text-base text-gray-700">I&apos;m a systems engineer thriving in designing efficient and scalable systems—backend, distributed, embedded, and AI platforms. From architecting components to implementation, I engage the entire process, finding simple solutions that can be layered efficiently. With knowledge of operating systems, computer architecture, and more, I work across a wide range and share unique insights to problems.</p>
+        </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        {/* Quotes */}
+        <section className="mb-8">
+          <blockquote className="italic text-gray-700 border-l-4 border-gray-300 pl-4 mb-2">
+            &quot;People with talent often have the wrong impression that things will go as they think.&quot;<br />
+            <span className="text-xs text-gray-400">— Kiyotaka Ayanokoji</span>
+          </blockquote>
+          <blockquote className="italic text-gray-700 border-l-4 border-gray-300 pl-4">
+            &quot;If you want to move forward, you have to take risks.&quot;<br />
+            <span className="text-xs text-gray-400">— Senku Ishigami (Dr. Stone)</span>
+          </blockquote>
+        </section>
+
+        {/* Projects */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li><strong>Xarvis</strong> <a href="https://github.com/xpanvictor/xarvis" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Real-world Jarvis system, Go concurrency, hardware integration.</li>
+            <li><strong>Multiagent AI</strong> <a href="https://cleverfolks.ai" className="underline" target="_blank" rel="noopener noreferrer">(cleverfolks.ai)</a> — Centralized query engine, agentic orchestration.</li>
+            <li><strong>Oracle Engine</strong> — Distributed price feed oracle, backend lead.</li>
+            <li><strong>Xzam</strong> <a href="https://github.com/xpanvictor/xzam" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Shazam paper in Rust.</li>
+            <li><strong>Missionsync</strong> — High-scale backend, MEN stack.</li>
+            <li><strong>Cryptosmart</strong> — Smart contracts for decentralized savings, Python/Solidity/Rust.</li>
+            <li><strong>Fintech Remittance Platform</strong> — B2B remittance platform, undisclosed fintech role.</li>
+            <li><strong>Dukia</strong> — Web3 NFT marketplace frontend, wagmi/ethers.js/nextjs.</li>
+            <li><strong>eClass</strong> — Digital classroom, MERN stack.</li>
+            <li><strong>MNIST digit recg. in rust</strong> <a href="https://github.com/xpanvictor/neurlr" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Rust MNIST digit recognition.</li>
+          </ul>
+        </section>
+
+        {/* Publications */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Writing</h2>
+          <p className="text-gray-700">Blog: <a href="https://xpanvictor.github.io/" className="underline" target="_blank" rel="noopener noreferrer">Jekyll</a> | <a href="https://medium.com/@xpanvictor" className="underline" target="_blank" rel="noopener noreferrer">Medium</a> | <a href="https://xpan.notion.site/Bitcask-fffab182e35380a38b62f8eaf97fa926" className="underline" target="_blank" rel="noopener noreferrer">Bitcask</a></p>
+        </section>
+
+        {/* Resume Download */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Resume</h2>
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/docs/Victor-Oladunjoye-FlowCV-Resume-20250917.pdf"
+            className="inline-block px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700 transition"
+            download
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            Download PDF
           </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </section>
+
+        {/* Contact */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+          <p className="text-gray-700">Email: <a href="mailto:xpanvictor@gmail.com" className="underline">xpanvictor@gmail.com</a></p>
+          <p className="text-gray-700">Portfolio: <a href="https://www.xpan9.tech/" className="underline" target="_blank" rel="noopener noreferrer">xpan9.tech</a></p>
+          <p className="text-gray-700">GitHub: <a href="https://github.com/xpanvictor" className="underline" target="_blank" rel="noopener noreferrer">github.com/xpanvictor</a></p>
+          <p className="text-gray-700">Medium: <a href="https://medium.com/@xpanvictor" className="underline" target="_blank" rel="noopener noreferrer">medium.com/@xpanvictor</a></p>
+        </section>
+        {/* Skills & Interests */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Skills & Interests</h2>
+          <p className="text-gray-700">
+            <strong>Go, Python, Rust, C/C++:</strong> Distributed systems, backend, agentic/AI, smart contracts.<br />
+            <strong>MERN:</strong> Fullstack web apps.<br />
+            <strong>Agentic & Orchestration:</strong> LLMs, MCP, RAG.<br />
+            <strong>Interests:</strong> AI, STEM, Blockchain, Music, <a href="https://www.goodreads.com/user/show/165229002-null-pan" className="underline" target="_blank" rel="noopener noreferrer">Reading</a>
+          </p>
+        </section>
+      </div>
+      <footer className="mt-12 text-xs text-gray-400 text-center">&copy; 2025 Victor Oladunjoye</footer>
     </div>
   );
 }
