@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Projects */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+          <h2 className="text-2xl font-semibold mb-4">Some projects</h2>
           <ul className="list-disc list-inside space-y-2">
             <li><strong>Xarvis</strong> <a href="https://github.com/xpanvictor/xarvis" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Real-world Jarvis system, Go concurrency, hardware integration.</li>
             <li><strong>Multiagent AI</strong> <a href="https://cleverfolks.ai" className="underline" target="_blank" rel="noopener noreferrer">(cleverfolks.ai)</a> — Centralized query engine, agentic orchestration.</li>
