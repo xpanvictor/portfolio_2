@@ -31,7 +31,7 @@ export default function Home() {
             <li><strong>Multiagent AI</strong> <a href="https://cleverfolks.ai" className="underline" target="_blank" rel="noopener noreferrer">(cleverfolks.ai)</a> — Centralized query engine, agentic orchestration.</li>
             <li><strong>Oracle Engine</strong> — Distributed price feed oracle, backend lead.</li>
             <li><strong>Xzam</strong> <a href="https://github.com/xpanvictor/xzam" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Shazam paper in Rust.</li>
-            <li><strong>Missionsync</strong> — High-scale backend, MEN stack.</li>
+            <li><strong>Missionsync</strong> — High-scale backend with soa for business execution management.</li>
             <li><strong>Cryptosmart</strong> <a href="https://bitsave.io/" className="underline" target="_blank" rel="noopener noreferrer">(bitsave.io)</a> — Smart contracts for decentralized savings, Python/Solidity/Rust with live users.</li>
             <li><strong>Fintech Remittance Platform</strong> — B2B remittance platform, undisclosed fintech role.</li>
             <li><strong>Dukia</strong> — Web3 NFT marketplace frontend, wagmi/ethers.js/nextjs.</li>
