@@ -2,7 +2,7 @@ services:
   nextjs:
     build: .
     ports:
-      - "5173:5173"
+      - "5173:3000"
     environment:
       NODE_ENV: production
     networks:
@@ -12,7 +12,7 @@ services:
       - "traefik.http.routers.portfolio.rule=Host(`www.xpan9.tech`)"
       - "traefik.http.routers.portfolio.entrypoints=web,websecure"
       - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
-      - "traefik.http.services.portfolio.loadbalancer.server.port=5173"
+      - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
 networks:
   xarvis_backend:
     external: true
