@@ -32,11 +32,11 @@ export default function Home() {
             <li><strong>Oracle Engine</strong> — Distributed price feed oracle, backend lead.</li>
             <li><strong>Xzam</strong> <a href="https://github.com/xpanvictor/xzam" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Shazam paper in Rust.</li>
             <li><strong>Missionsync</strong> — High-scale backend with soa for business execution management.</li>
-            <li><strong>Cryptosmart</strong> <a href="https://bitsave.io/" className="underline" target="_blank" rel="noopener noreferrer">(bitsave.io)</a> — Smart contracts for decentralized savings, Python/Solidity/Rust with live users.</li>
+            <li><strong>Cryptosmart</strong> <a href="https://bitsave.io/" className="underline" target="_blank" rel="noopener noreferrer">(bitsave.io)</a> — Smart contracts for decentralized savings, Python/Solidity/Rust.</li>
+            <li><strong>MNIST digit recg. in rust</strong> <a href="https://github.com/xpanvictor/neurlr" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Rust MNIST digit recognition.</li>
             <li><strong>Fintech Remittance Platform</strong> — B2B remittance platform, undisclosed fintech role.</li>
             <li><strong>Dukia</strong> — Web3 NFT marketplace frontend, wagmi/ethers.js/nextjs.</li>
             <li><strong>eClass</strong> — Digital classroom, MERN stack.</li>
-            <li><strong>MNIST digit recg. in rust</strong> <a href="https://github.com/xpanvictor/neurlr" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Rust MNIST digit recognition.</li>
           </ul>
         </section>
 
