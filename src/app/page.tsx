@@ -8,7 +8,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight mb-2">Victor Oladunjoye, Xpan</h1>
           <p className="text-lg text-gray-600 mb-2">Software Engineer</p>
           <span className="text-sm text-gray-400">戦え、戦え… (Fight, fight...)</span>
-          <p className="mt-4 text-base text-gray-700">I&apos;m a systems engineer that thrives in designing efficient and scalable systems—backend, distributed, embedded, and AI platforms. From architecting components to layering implementation. </p>
+          <p className="mt-4 text-base text-gray-700">I&apos;m a systems engineer. I enjoy designing efficient and scalable solutions—backend, distributed, embedded, and AI platforms. From architecting components to layering implementation. </p>
         </header>
 
         {/* Quotes */}
