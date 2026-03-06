@@ -27,6 +27,8 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Some experiences:</h2>
           <ul className="list-disc list-inside space-y-2">
+            <li><strong>pldg</strong> <a href="">()</a>— Studied and contributed on libp2p as a cohort member.</li>
+            <li><strong>hinet</strong> <a href="https://github.com/xpanvictor/hinet">(Github)</a>— A decentralized communication layer based on libp2p gsub.</li>
             <li><strong>Xarvis</strong> <a href="https://github.com/xpanvictor/xarvis" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Real-world Jarvis system, Go concurrency, hardware integration.</li>
             <li><strong>Multiagent AI</strong> <a href="https://cleverfolks.ai" className="underline" target="_blank" rel="noopener noreferrer">(cleverfolks.ai)</a> — Centralized query engine, agentic orchestration.</li>
             <li><strong>Oracle Engine</strong> — Distributed price feed oracle, backend lead.</li>
@@ -36,7 +38,6 @@ export default function Home() {
             <li><strong>MNIST digit recg. in rust</strong> <a href="https://github.com/xpanvictor/neurlr" className="underline" target="_blank" rel="noopener noreferrer">(GitHub)</a> — Rust MNIST digit recognition.</li>
             <li><strong>Fintech Remittance Platform</strong> — B2B remittance platform, undisclosed fintech role.</li>
             <li><strong>Dukia</strong> — Web3 NFT marketplace frontend, wagmi/ethers.js/nextjs.</li>
-            <li><strong>eClass</strong> — Digital classroom, MERN stack.</li>
           </ul>
         </section>
 
@@ -70,7 +71,7 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Skills & Interests</h2>
           <p className="text-gray-700">
-            <strong>Go, Python, Rust, C/C++:</strong> Distributed systems, backend, agentic/AI, smart contracts.<br />
+            <strong>Rust, Go, Python, C/C++:</strong> Distributed systems, backend, agentic/AI, smart contracts.<br />
             <strong>MERN:</strong> Fullstack web apps.<br />
             <strong>Agentic & Orchestration:</strong> LLMs, MCP, RAG.<br />
             <strong>Interests:</strong> AI, STEM, Blockchain, Music, <a href="https://www.goodreads.com/user/show/165229002-null-pan" className="underline" target="_blank" rel="noopener noreferrer">Reading</a>
