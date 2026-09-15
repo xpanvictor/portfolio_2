@@ -15,6 +15,10 @@ export default function Home() {
           <h2 className="text-lg font-semibold mb-4 text-gray-900">Projects</h2>
           <div className="space-y-2">
             <div className="text-sm">
+              <span className="font-medium">LESS</span> <a href="https://less-av.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">(GitHub)</a>
+              <p className="text-gray-600">Retrofit vehicle autonomy stack with Rust/Embassy firmware and a crowdsourced road-conditions routing platform for Lagos.</p>
+            </div>
+            <div className="text-sm">
               <span className="font-medium">Xarvis</span> <a href="https://github.com/xpanvictor/xarvis" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">(GitHub)</a>
               <p className="text-gray-600">Real-world Jarvis system with Go concurrency and hardware integration.</p>
             </div>
@@ -59,7 +63,8 @@ export default function Home() {
             <a href="https://github.com/xpanvictor" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>
             <a href="https://medium.com/@xpanvictor" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Medium</a>
             <a href="https://xpanvictor.github.io/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Blog</a>
-            <a href="/docs/Victor-Oladunjoye-FlowCV-Resume-20250918.pdf" className="text-blue-600 hover:underline">Resume</a>
+            <a href="https://www.linkedin.com/in/victoroladunoye/" target="_blank" className="text-blue-600 hover:underline">LinkedIn</a>
+            <a href="/docs/Victor-Oladunjoye-09-26.pdf" className="text-blue-600 hover:underline">Resume</a>
           </div>
         </section>
       </div>
